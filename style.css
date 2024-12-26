@@ -1,0 +1,94 @@
+body{
+    background-image:url(../cos.jpg);
+  
+}
+h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.first{
+    display:flex;
+    justify-content: center;
+   padding-right: 390px;
+    
+}
+
+td{
+    font-weight: bold;
+}
+
+#storelist{
+    background-color: #1e201f;
+    width: 60%;   
+     color: white;
+     border-collapse: collapse;
+}
+
+.footer{
+   
+        display:flex;
+        justify-content:center;
+       
+}
+th {
+    text-align: left;
+    border: 1px solid #c7c1c1;
+    padding: 10px;
+  }
+  
+
+input[type="text"],input[type="number"]{
+    width: 200%;
+    padding: 12px 20px;
+    margin:10px 0;
+    display: inline-block;
+    border:1px solid rgb(165,161,161);
+    border-radius: 10px;
+
+}
+#Submit{
+   background: #02bd75;
+    padding: 6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border:none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    color: white;
+}
+#reset{
+    background: #3e5048bd;
+    padding: 6px 12px;
+    border:none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    color: white;
+}
+input[type="Submit"]:hover{
+    background:  #5c6d5f;
+}
+input[type="reset"]:hover{
+    background:  #5c6d5f;
+    
+}
+button{
+    background: orange;
+    padding: 6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border:none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    color: white;
+}
+.onn{
+background-color: red;
+
+}
